@@ -1,0 +1,21 @@
+{
+  "name": "pact_testing",
+  "version": "1.0.0",
+  "description": "Sandbox for pact PoC",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine --verbose --captureExceptions",
+    "startFirst": "node first.js",
+    "startSecond": "node second.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "2.x",
+    "pact": "pact-foundation/pact-js",
+    "@pact-foundation/pact-node": "^4.3.2"
+  },
+  "dependencies": {
+    "percolator": "^1.5.0",
+    "request": "^2.70.0"
+  }
+}
